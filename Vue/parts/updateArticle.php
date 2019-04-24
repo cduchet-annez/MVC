@@ -15,8 +15,8 @@
     <h1 class="text-center">Modifiez votre Article !</h1><br>
     <br><hr><br>
         <form class="offset-4" action="/exempleMVC/index.php?controller=article&action=update&id=<?php echo $id; ?>" method="post">
-            <input class="col-6 my-3" name="titre" type="text" placeholder="insérer le titre">
-            <input class="col-6 my-3" name="contenu" type="text" placeholder="insérer le contenu">
+            <input class="col-6 my-3" name="titre" type="text" value="<?php echo $article->getTitre(); ?>">
+            <input class="col-6 my-3" name="contenu" type="text" value="<?php echo $article->getContenu(); ?>">
             <input type="submit" class="btn btn-info offset-5 my-3" value="Valider !">
         </form>
 </div>

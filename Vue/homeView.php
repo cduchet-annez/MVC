@@ -9,7 +9,7 @@
 <body>
 <div class="container">
     <div class="text-center">
-    <h1>Mon super forum !</h1>
+    <h1 style="text-shadow:yellow -1px 1px, yellow -1px 1px,yellow -1px 1px, yellow -1px 1px ">Mon super forum !</h1>
         <p>Derniers articles du forum :</p>
     </div>
     <div class="text-center">
