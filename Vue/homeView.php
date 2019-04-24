@@ -15,7 +15,7 @@
     <div class="text-center">
             <a class='btn btn-outline-warning m-2 p-3' href="/exempleMVC/index.php?controller=admin&action=renderAdmin">
                 <strong>Admin Vue</strong>
-                <i class="fas fa-2x fa-plus-circle mt-2"></i>
+                <i class="fas fa-2x fa-cogs mt-2"></i>
             </a>
             <a class='btn btn-outline-warning m-2 p-3' href="/exempleMVC/index.php?controller=article&action=newArticle">
                 <strong>Ajouter un article</strong>

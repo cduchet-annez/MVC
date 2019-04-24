@@ -9,12 +9,12 @@
 
 <body>
     <div class="container">
+        <a class='btn btn-outline-danger my-3  ' href="/exempleMVC/index.php?controller=index&action=renderIndex" >
+            <strong>ACCUEIL</strong> <i class="fas fa-2x fa-home mt-2"></i>
+        </a>
          <h2 class="text-center">Ajouter votre article</h2>
 
-        <br>
-        <br>
-        <br>
-        <br>
+        <br><hr><br>
 
 
             <form class="offset-4" action="/exempleMVC/index.php?controller=article&action=formArticle" method="post">
